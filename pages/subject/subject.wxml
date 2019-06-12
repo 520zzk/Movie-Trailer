@@ -1,0 +1,5 @@
+<!--pages/subject/subject.wxml-->
+<view wx:for="{{list}}" wx:key="index" class="warp" data-type="{{item.type}}" bind:tap="clickThis">
+    <image src="{{item.url}}" mode="widthFix"></image>
+    <text>{{item.type}}</text>
+</view>

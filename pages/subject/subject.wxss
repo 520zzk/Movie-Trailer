@@ -1,0 +1,16 @@
+/* pages/subject/subject.wxss */
+.warp{
+    margin-bottom:20px;
+    position: relative;
+}
+.warp image{
+    width:100%;
+    border-radius:5px;
+}
+.warp text{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    font:bold 20px/1.5 "微软雅黑";
+    color:#fff;
+}

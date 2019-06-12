@@ -1,0 +1,20 @@
+<!--pages/user/user.wxml-->
+<import src="/component/template/list.wxml"></import>
+<view class="Btn" wx:if="{{!user}}">
+    <button open-type="getUserInfo" bindgetuserinfo="getUser">获取用户信息</button>    
+</view>
+<view wx:if="{{user}}" class="user">
+    <image class="userimg" src="{{user.avatarUrl}}" mode="widthFix">
+    </image>
+    <view class="username">
+        用户名：{{user.nickName}}
+    </view>
+    <view class="userline"></view>
+</view>
+
+<view>
+    <!-- is="list-template" data="{{}}" -->
+    <template is="list-template" data="{{list,loading}}"></template>
+</view>
+  
+

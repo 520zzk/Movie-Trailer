@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+.title{
+    text-align:center;
+}
+.video{
+    width:100%;
+}
+.content{
+    padding: 2px 5px;
+    text-indent:2em;
+}

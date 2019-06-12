@@ -1,0 +1,4 @@
+<!--pages/subjectList/subjectList.wxml-->
+<import src="/component/template/list.wxml"></import>
+<template is="list-template" data="{{list,loading}}">
+</template>

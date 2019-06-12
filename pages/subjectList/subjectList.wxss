@@ -1,0 +1,2 @@
+/* pages/subjectList/subjectList.wxss */
+@import "/component/css/list.wxss";

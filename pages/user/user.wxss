@@ -1,0 +1,39 @@
+/* pages/user/user.wxss */
+@import "/component/css/list"
+.Btn{
+    width:700rpx;
+    margin:0 auto;
+    margin-top: 20rpx;
+    border-radius:5px;
+    box-shadow: 1px 2px #000;
+}
+.user{
+    width:100%;
+    height:100px;
+    position:relative;
+}
+.userimg{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    position: absolute;
+    top:5px;
+    left:300rpx;
+}
+.username{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    position: absolute;
+    bottom:10px;
+    left:200rpx;
+    font-size: 14px/1.5 "微软雅黑";
+}
+.userline{
+    width:100%;
+    height:3px;
+    border:0;
+    position:absolute;
+    bottom:0px;
+    background:#aaa;
+}
