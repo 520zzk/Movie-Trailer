@@ -21,15 +21,15 @@ wx.showLoading({
 })
 this.setData({loading:true})
   wx.request({
-    url:`https://www.koocv.com/h5-view/v/movie/detail/?id=${id}`,
+    url:` `,
     success:msg=>{
-      
-    wx.setNavigationBarTitle({
-      title: msg.data.title,
-      success: (result) => {
-        
-      }
-    });
+   
+    console.log(msg.data,'没有请求到数据，该接口可能已关闭');
+    // wx.setNavigationBarTitle({
+    //   title: msg.data.title,
+    //   success: (result) => {
+    //   }
+    // });
       
       this.setData({
         detail:msg.data,
